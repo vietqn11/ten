@@ -1,6 +1,6 @@
 
 import React from 'react';
-import type { BusinessName } from '../types';
+import type { BusinessName } from '../types.ts';
 
 interface NameListProps {
   names: BusinessName[];

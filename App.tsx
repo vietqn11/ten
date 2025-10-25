@@ -1,11 +1,11 @@
 
 import React, { useState, useCallback } from 'react';
-import { generateBusinessNames } from './services/geminiService';
-import type { BusinessName } from './types';
-import Header from './components/Header';
-import InputForm from './components/InputForm';
-import NameList from './components/NameList';
-import LoadingSpinner from './components/LoadingSpinner';
+import { generateBusinessNames } from './services/geminiService.ts';
+import type { BusinessName } from './types.ts';
+import Header from './components/Header.tsx';
+import InputForm from './components/InputForm.tsx';
+import NameList from './components/NameList.tsx';
+import LoadingSpinner from './components/LoadingSpinner.tsx';
 
 // Chào bạn, tôi đã tạo trang web theo yêu cầu của bạn.
 // I'm using TypeScript (.tsx) as it helps in building more robust and maintainable applications.
